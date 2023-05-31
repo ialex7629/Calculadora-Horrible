@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador HTML</title>
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            display: block;
+            text-align: center;
+        }
+
+        input {
+            background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Borde sin estilo */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Ajuste de espacios internos */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado de texto */
+  display: inline-block; /* Como un elemento en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 4px 2px; /* Margen superior e inferior */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  border-radius: 25px; /* Radio de las esquinas */
+  box-shadow: 2px 2px #888888; /* Sombra */
+}
+        
+        h1{
+            background-color: aqua;
+            padding: 1rem 1rem;
+            
+        }
+        form{
+            background-color: bisque;
+            width: 400px;
+            margin: 0 auto;
+        }   
+    </style>
+</head>
+
+<body>
+    <form method="dialog">
+        <h1>CALCULADORA HTML</h1>
+        <input type="text" id="op1" placeholder="operador 1">
+        <input type="text" id="operador" placeholder="+-*/">
+        <input type="text" id="op2" placeholder="operador 2">
+        <input class="perro" id="butts" type="submit" value="Calcular">
+    </form>
+    <p id="resul">Resultado</p>
+</body>
+
+</html>
